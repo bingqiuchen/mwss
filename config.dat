@@ -1,0 +1,56 @@
+; --- scheduler config values
+numobsperfield = 6
+reuserankcount = 10
+
+newmoon = 20.0
+midmoon = 70.0
+mindis2moon = 30.0
+minhz = 20.0
+nchange = 1
+exptime = 20.0
+nexp = 2.0
+year = 2022
+
+; --- System config values
+filter1_expfactor = 1.0
+filter1_deepmag = 20.0
+filter2_expfactor  = 1.0
+filter2_deepmag = 20.0
+
+ccdreadtime = 10.0
+
+; --- telescope model
+telvmax = 2.0
+telacc = 1.0
+telsettledown = 10.0
+telminazlimit = 25.0
+telhabmin = -175.0
+telhabmax = 175.0
+teldefaultdec = 90.0
+
+; --- site information
+sitelon = 100.030
+sitelat = 26.6950
+sitealt = 3200.0
+hzbes = 80.0
+
+maxairmass = 2.0
+badseeinglimit = 3.0
+templimit = -100.0
+windlimit = 100.0
+cloudlimit = 3
+timewait = 300.0
+
+sunaltnightlimit = -12.0
+sunalttwilightlimit = -12.0
+
+; --- survey information
+goallimitmag = 21.5
+goalvisits = 4.8
+goaltotallimitmag = 22.5
+filterchangeperiod =  2
+f1 = 1.0
+f2 = 10.0
+f3 = 0.20
+f4 = 1.0
+f5 = 0.1
